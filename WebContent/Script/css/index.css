@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+body{
+   	width:970px;
+	margin:0 auto;
+	font-size:15px;
+	text-align:center;
+	background:FFFFF;
+	font-weight:normal;
+
+	}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+	font-family: "华文楷体", "华文行楷";
+	color:#1C1649;
+	}
+/* 登陆后的头像显示*/
+#user{
+	width:100px;
+	height:30px;
+	position:absolute;
+	top:140px;
+	left:950px;
+}
+
+	/*顶部*/
+#brand{   
+	width:970px;
+	background:url(../../images/logo.png) no-repeat 6% center;
+	height:6em;
+	}
+#toppic{
+	background:url(../../images/toppict.png);
+	width:970px;
+	height:170px;
+	-moz-border-radius:1em;
+	-webkit-border-radius:1em;
+	border-radius:1em;
+	border:1px solid #00B8F5;
+	}
+
+#bb{
+	width:970px;
+	height:6em;
+	background:url(../../images/btn_bg7.gif) no-repeat 6% center;
+}	
+#bar{
+	width:970px;
+    background:#F9F9F9;	
+    height:15px;
+	
+	}	
+#body{
+width:970px;
+margin-top:20px;
+	}	
+
+#content{
+	border:1px solid #D6F4FF;
+		width:720px;
+	height:650px;
+	float:left;
+	background:#F9F9F9;
+	text-align:left;
+	font-weight: bold;
+	margin-left:0px;
+	overflow:auto;
+	}	
+#content .latestart{
+	width:480px;
+	text-align:left;
+	color:#404040;
+	font-weight:normal;
+	letter-spacing:2px;
+	padding:10px 10px 10px 10px;
+
+	}	
+#regist{
+	width:230px;
+	height:650px;
+	float:left;
+	position:relative;
+	background:#F9F9F9;
+	margin-left:10px;
+	border:1px solid #D6F4FF;
+	}
+#regist .regimg{
+	width:200px;
+	height:300px;
+	background:url(../../images/regimg.gif);
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	
+	}
+#regist .regimg span img{
+	margin-top:20px;
+	}
+#regist .topic10{
+	position:absolute;
+	left: 6px;
+	top: 269px;
+	width: 206px;
+	text-align:left;
+	
+	}	
+#footer{
+	width:970px;
+	height:50px;
+	clear:both;
+	margin-bottom:40px;
+	background:url(../../images/foot.gif);
+	color: #666;
+}
+#footerLink{
+		width:600px;
+		height:30px;
+		margin:0px auto;
+		position:relative;
+		line-height:30px;
+	}
+		/* footer部分的链接 */
+		#footerLink ul{
+			list-style:none;
+			padding:0px;
+			margin:0px;
+		}
+		#footerLink li{
+			/*float:left;*/
+			display:table;
+			margin:0px 10px;
+		}
+#footer p{
+	text-indent:50px;
+	padding-top:7px;
+	font-size: 14px;
+	
+	}
+.btn{
+ background-color:#E3F9BF;  
+ border:1 solid #ADBFF3; 
+ width:97px;
+ height:30px;
+ font-size:18px;
+ font-weight:bold;
+ background:url(../../images/signin.png);
+ cursor:pointer;
+ border:0;
+
+ }
+ .list_table_pageSplitInfo
+{
+width:240px !important;
+}
+.list_table_pageSplitInfo td
+{
+	font-size:12px;
+	}
+ 
+#weibo
+{
+	
+	width:350px;
+		height:30px;
+		position:absolute;
+		top:150px;
+		left:400px;
+}
+#weibo a:link{
+	text-decoration:none;
+}
+#weibo a:visited{
+	text-decoration:none;
+}
+#weibo a:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+

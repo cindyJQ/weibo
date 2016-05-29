@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+.btn{
+ background-color:#E3F9BF;  
+ border:1 solid #ADBFF3; 
+ width:97px;
+ height:30px;
+ font-size:18px;
+ font-weight:bold;
+ background:url(../../images/signin.png);
+ cursor:pointer;
+ border:0;
+
+ }
+ body{
+   	width:1024px;
+	margin:0 auto;
+	font-size:15px;
+	text-align:center;
+	background:FFFFF;
+	font-weight:normal;
+
+	}
+#bac{
+	background:url(../../images/22.jpg);
+	width:1024px;
+	height:640px;
+	border-radius:1em;
+	border:1px solid #00B8F5;
+}
+#login{
+	margin-left: 450px;
+	margin-top:150px;
+	
+}
